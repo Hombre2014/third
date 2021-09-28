@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content {
+    background-color: lightgray;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+
+header {
+    padding-top: 20px;
+    background-color: lightgray;
+}
+
+h1, h4, p, #tribute-info {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    margin: 40px 0;
+}
+
+#img-div {
+    display: flex;
+    align-content: center;
+    margin: 40px 10px;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    align-self: center;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.year {
+    font-weight: 800;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex;
+    max-width: 100%;
+}
+
+blockquote {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+blockquote>p {
+    margin-top: 20px;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+#citation {
+    display: block;
+    margin: 20 auto;
+    margin-left: 2rem;
+    text-align: left;
+}
